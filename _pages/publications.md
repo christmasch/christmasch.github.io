@@ -9,6 +9,5 @@ nav_order: 2
 
 ## Publications
 
-{% include bib_search.liquid %}
 
 {% bibliography %}
