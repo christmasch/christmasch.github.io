@@ -7,3 +7,6 @@ nav: true
 nav_order: 2
 ---
 
+## Publications
+
+{% bibliography %}
