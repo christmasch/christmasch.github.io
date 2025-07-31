@@ -26,5 +26,4 @@ latest_posts:
 
 I am a second-year PhD student at the [Department of Economics at Lund University](https://www.lusem.lu.se/organisation/department-economics). I received my MSc in Economics at Lund University in 2022. 
 
-My primary research field is econometrics, with a particular focus on nonlinear panel data models. I develop methods for estimating and testing large-dimensional factor models, particularly when nonlinearities arise in the factors or the overall model structure.
-
+My primary research field is econometrics, with a particular focus on (nonlinear) panel data models with factor structure.
