@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student at the [Department of Economics at Lund University](https://www.lusem.lu.se/organisation/department-economics). I received my MSc in Economics at Lund University in 2022. 
+I am a third-year PhD student at the [Department of Economics at Lund University](https://www.lusem.lu.se/organisation/department-economics). I received my MSc in Economics at Lund University in 2022. 
 
 My primary research field is econometrics, with a particular focus on (nonlinear) panel data models with factor structure.
