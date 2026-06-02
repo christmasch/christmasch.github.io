@@ -18,6 +18,11 @@ nav_order: 2
   display: none !important;
 }
 
+/* Remove the automatically inserted bibliography year headings */
+.publications h2.bibliography {
+  display: none;
+}
+
 /* Make each bibliography entry full width and create space for bullet */
 .publications .bibliography .row {
   display: block;
