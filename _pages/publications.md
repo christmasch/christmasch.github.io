@@ -26,13 +26,6 @@ nav_order: 2
   margin-bottom: 1.2em;
 }
 
-/* Add bullet point before each paper */
-.publications .bibliography .row::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 
 /* Let the publication text take the full width */
 .publications .bibliography .col-sm-2,
