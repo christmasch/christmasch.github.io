@@ -13,14 +13,14 @@ nav_order: 2
   display: none;
 }
 
-/* Remove empty image/preview area next to each paper */
-.publications .preview {
-  display: none !important;
-}
-
 /* Remove the automatically inserted bibliography year headings */
 .publications h2.bibliography {
   display: none;
+}
+
+/* Remove empty image/preview area next to each paper */
+.publications .preview {
+  display: none !important;
 }
 
 /* Make each bibliography entry full width and create space for bullet */
@@ -32,6 +32,7 @@ nav_order: 2
 }
 
 
+
 /* Let the publication text take the full width */
 .publications .bibliography .col-sm-2,
 .publications .bibliography .col-sm-8,
@@ -41,10 +42,15 @@ nav_order: 2
   padding-left: 0;
 }
 
-/* Optional: remove extra left/right bootstrap padding */
+/* Remove extra left/right Bootstrap padding */
 .publications .bibliography .row > div {
   padding-left: 0;
   padding-right: 0;
+}
+
+/* More distance between Working Papers and Work in Progress */
+.publication-section-spacer {
+  height: 2rem;
 }
 </style>
 
@@ -53,6 +59,8 @@ nav_order: 2
 <div class="publications">
   <h2>Working Papers</h2>
   {% bibliography --query @*[status=working-paper] %}
+
+  <div class="publication-section-spacer"></div>
 
   <h2>Work in Progress</h2>
   {% bibliography --query @*[status=work-in-progress] %}
