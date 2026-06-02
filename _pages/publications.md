@@ -32,7 +32,6 @@ nav_order: 2
 }
 
 
-
 /* Let the publication text take the full width */
 .publications .bibliography .col-sm-2,
 .publications .bibliography .col-sm-8,
@@ -48,7 +47,10 @@ nav_order: 2
   padding-right: 0;
 }
 
-
+/* More distance between Working Papers and Work in Progress */
+.publication-section-spacer {
+  height: 2rem;
+}
 </style>
 
 <!-- _pages/publications.md -->
