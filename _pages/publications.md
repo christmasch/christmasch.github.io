@@ -7,6 +7,12 @@ nav: true
 nav_order: 2
 ---
 
+<style>
+.post-title {
+  display: none;
+}
+</style>
+
 <!-- _pages/publications.md -->
 
 <div class="publications">
