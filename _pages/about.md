@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year PhD student at the [Department of Economics at Lund University](https://www.lusem.lu.se/organisation/department-economics). I received my MSc in Economics at Lund University in 2022. 
+I am a third-year PhD candidate at the [Department of Economics at Lund University](https://www.lusem.lu.se/organisation/department-economics) supervised by Joakim Westerlund and Simon Reese. I received my MSc in Economics at Lund University in 2022. During spring 2026, I visited Martin Weidner at the [Department of Economics, University of Oxford](https://www.economics.ox.ac.uk/home). In autumn 2026, I will be visiting Hyungsik Roger Moon at the [Department of Economics, University of Southern California](https://dornsife.usc.edu/econ/).
 
-My primary research field is econometrics, with a particular focus on (nonlinear) panel data models with factor structure.
+**Research interests:** econometric theory of panel data models with unobserved heterogeneity.
