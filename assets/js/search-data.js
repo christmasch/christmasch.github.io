@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Research/";
           },
-        },{id: "nav-teaching",
-          title: "Teaching",
+        },{id: "nav-teaching-roles-as-phd-candidate-at-lund-university",
+          title: "Teaching roles as PhD candidate at Lund University",
           description: "",
           section: "Navigation",
           handler: () => {
