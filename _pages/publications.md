@@ -1,67 +1,71 @@
 ---
 layout: page
-permalink: /Research/
-title: Research
+permalink: /Teaching/
+title: Teaching
 description:
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <style>
-/* Hide the large page title, but keep title: Research for the navigation */
 .post-title {
   display: none;
 }
 
-/* Remove empty image/preview area next to each paper */
-.publications .preview {
-  display: none !important;
+.teaching-title {
+  margin-bottom: 1rem;
 }
 
-/* Make each bibliography entry full width and create space for bullet */
-.publications .bibliography .row {
-  display: block;
-  position: relative;
+.teaching-content {
+  margin-top: 0;
   padding-left: 1.2em;
-  margin-bottom: 1.2em;
 }
 
-/* Let the publication text take the full width */
-.publications .bibliography .col-sm-2,
-.publications .bibliography .col-sm-8,
-.publications .bibliography .col-sm-10 {
-  max-width: 100%;
-  flex: 0 0 100%;
-  padding-left: 0;
+.teaching-list li {
+  margin-bottom: 1.25rem;
 }
 
-/* Remove extra left/right Bootstrap padding */
-.publications .bibliography .row > div {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* Add some space from the right edge on mobile */
 @media (max-width: 576px) {
-  .publications .bibliography .row {
+  .teaching-content {
     padding-left: 1.2em;
     padding-right: 1.2em;
     box-sizing: border-box;
   }
 }
-
-/* More distance between Working Papers and Work in Progress */
-.publication-section-spacer {
-  height: 2rem;
-}
 </style>
 
-<div class="publications">
-  <h2>Working Papers</h2>
-  {% bibliography --query @*[status=working-paper] --group_by none %}
+<h2 class="teaching-title">Teaching roles as PhD candidate at Lund University</h2>
 
-  <div class="publication-section-spacer"></div>
+<div class="teaching-content" markdown="1">
 
-  <h2>Work in Progress</h2>
-  {% bibliography --query @*[status=work-in-progress] --group_by none %}
+**Teaching assistant** for:
+
+<ul class="teaching-list">
+  <li>
+    Time Series Analysis (7.5 ECTS, Master-level course)
+    <br>
+    Coordinating and leading lab sessions as well as grading lab reports.
+  </li>
+
+  <li>
+    Machine Learning from a Regression Perspective (7.5 ECTS, Master-level course)
+    <br>
+    Leading computer sessions, helping students with coding assignments, and grading assignments.
+  </li>
+
+  <li>
+    Microeconomic Theory with Applications (11 ECTS, Bachelor-level course)
+    <br>
+    Leading exercise sessions.
+  </li>
+</ul>
+
+**Coordinator and instructor** for:
+
+<ul class="teaching-list">
+  <li>
+    <a href="https://www.lusem.lu.se/organisation/lund-university-school-economics-and-management-library/lusem-library/data-science-lab">Data Science Lab</a>
+  </li>
+</ul>
+
 </div>
