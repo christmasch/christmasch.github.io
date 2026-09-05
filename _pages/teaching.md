@@ -16,9 +16,16 @@ nav_order: 3
   margin-bottom: 1rem;
 }
 
+/* Align main teaching content with publication titles */
 .teaching-content {
   margin-top: 0;
-  padding-left: 1.2em;
+  margin-left: 1.2em;
+}
+
+/* Indent bullet points further */
+.teaching-list {
+  margin-left: 0;
+  padding-left: 1.5em;
 }
 
 .teaching-list li {
@@ -27,9 +34,8 @@ nav_order: 3
 
 @media (max-width: 576px) {
   .teaching-content {
-    padding-left: 1.2em;
-    padding-right: 1.2em;
-    box-sizing: border-box;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
   }
 }
 </style>
