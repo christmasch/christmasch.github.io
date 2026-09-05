@@ -12,6 +12,10 @@ nav_order: 3
   display: none;
 }
 
+.teaching-list {
+  padding-left: 1.2em;
+}
+
 .teaching-list li {
   margin-bottom: 1.25rem;
 }
