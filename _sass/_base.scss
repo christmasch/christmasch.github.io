@@ -1417,3 +1417,25 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+@media (max-width: 575.98px) {
+  .post article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post article > .clearfix {
+    order: 1;
+  }
+
+  .post article > .profile {
+    order: 2;
+    float: none !important;
+    width: 100% !important;
+    margin: 1rem 0 0 0 !important;
+  }
+
+  .post article > .social {
+    order: 3;
+  }
+}
