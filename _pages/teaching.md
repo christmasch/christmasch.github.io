@@ -19,13 +19,13 @@ nav_order: 3
 /* Align main teaching content with publication titles */
 .teaching-content {
   margin-top: 0;
-  margin-left: 1.2em;
+  margin-left: 1.0em;
 }
 
 /* Indent bullet points further */
 .teaching-list {
   margin-left: 0;
-  padding-left: 1.5em;
+  padding-left: 1.3em;
 }
 
 .teaching-list li {
