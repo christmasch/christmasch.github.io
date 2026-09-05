@@ -15,9 +15,19 @@ nav_order: 3
 .teaching-list li {
   margin-bottom: 1.25rem;
 }
+
+.teaching-title {
+  margin-bottom: 1rem;
+}
+
+.teaching-content {
+  margin-top: 0;
+}
 </style>
 
-## Teaching roles as PhD candidate at Lund University
+<h2 class="teaching-title">Teaching roles as PhD candidate at Lund University</h2>
+
+<div class="teaching-content" markdown="1">
 
 **Teaching assistant** for:
 
@@ -41,10 +51,12 @@ nav_order: 3
   </li>
 </ul>
 
-**Coordinator and instructor** for: 
-<ul class="teaching-list"> 
-  <li> 
-    <a href="https://www.lusem.lu.se/organisation/lund-university-school-economics-and-management-library/lusem-library/data-science-lab">Data Science Lab</a> 
-  </li> 
+**Coordinator and instructor** for:
+
+<ul class="teaching-list">
+  <li>
+    <a href="https://www.lusem.lu.se/organisation/lund-university-school-economics-and-management-library/lusem-library/data-science-lab">Data Science Lab</a>
+  </li>
 </ul>
 
+</div>
