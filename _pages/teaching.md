@@ -17,7 +17,7 @@ nav_order: 3
 }
 </style>
 
-# Teaching roles as PhD candidate at Lund University
+## Teaching roles as PhD candidate at Lund University
 
 **Teaching assistant** for:
 
