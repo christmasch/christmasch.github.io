@@ -12,7 +12,12 @@ nav_order: 3
   display: none;
 }
 
-.teaching-list {
+.teaching-title {
+  margin-bottom: 1rem;
+}
+
+.teaching-content {
+  margin-top: 0;
   padding-left: 1.2em;
 }
 
@@ -20,12 +25,12 @@ nav_order: 3
   margin-bottom: 1.25rem;
 }
 
-.teaching-title {
-  margin-bottom: 1rem;
-}
-
-.teaching-content {
-  margin-top: 0;
+@media (max-width: 576px) {
+  .teaching-content {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    box-sizing: border-box;
+  }
 }
 </style>
 
