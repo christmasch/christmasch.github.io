@@ -13,19 +13,19 @@ nav_order: 3
 }
 
 .teaching-title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 /* Align main teaching content with publication titles */
 .teaching-content {
   margin-top: 0;
-  margin-left: 1.0em;
+  margin-left: 0.8em;
 }
 
 /* Indent bullet points further */
 .teaching-list {
   margin-left: 0;
-  padding-left: 1.3em;
+  padding-left: 1.1em;
 }
 
 .teaching-list li {
