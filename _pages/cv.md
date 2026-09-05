@@ -6,5 +6,5 @@ nav: true
 nav_order: 5
 ---
 
-<meta http-equiv="refresh" content="0; url=https://christmasch.github.io/assets/CV_Christina_Maschmann.pdf" />
+<meta http-equiv="refresh" content="0; url=https://christinamaschmann.github.io/assets/CV_Christina_Maschmann.pdf" />
 
